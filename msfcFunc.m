@@ -1,7 +1,7 @@
 function [msfc,ws,ol,image_name,xlms,ylms] = msfcFunc()
 
 %enter your value in pixels per meter here:
-pxpm= 233.18
+pxpm= 448
 
 msfc = 1/pxpm
 %enter the size of your subwindow for tracing in meters
@@ -12,9 +12,9 @@ ws = 2
 ol = (1/8)*ws
 
 % what is the name of your image
-image_name = 'IMG_1343.JPG'
+image_name = 'IMG_0448.JPG'
 
 %%% here is where you enter in your x and y limits for your tracing window
-xlms = [1421.7 2598.7];
-ylms = [2103.7 3059.7];
+xlms = [2287.4 3921.9];
+ylms = [986.4 2271.2];
 

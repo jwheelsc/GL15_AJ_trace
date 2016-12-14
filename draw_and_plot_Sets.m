@@ -71,11 +71,11 @@ for i = 1:length(allSets)
     elyt = find(p(:,2)==max(p(:,2)));
     elyt = elyt(end);
     %%% LINE NUMBERS at highest y
-    text(p(elyt,1),p(elyt,2),num2str(i),'fontsize',textSize,'color', textColor);
-    elyb = find(p(:,2)==min(p(:,2)));
-    elyb = elyb(end);
+%     text(p(elyt,1),p(elyt,2),num2str(i),'fontsize',textSize,'color', textColor);
+%     elyb = find(p(:,2)==min(p(:,2)));
+%     elyb = elyb(end);
     %%% LINE NUMBERS at lowest y
-    text(p(elyb,1),p(elyb,2),num2str(i),'fontsize',textSize,'color', textColor);
+%     text(p(elyb,1),p(elyb,2),num2str(i),'fontsize',textSize,'color', textColor);
 end
 
 %%% find the traces that are XTR times the window size
